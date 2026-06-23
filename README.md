@@ -2,13 +2,15 @@
 
 <p align="center">
 <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=30&duration=4000&color=009EE3&center=true&vCenter=true&width=900&lines=MercadoAPI-JS;Integra%C3%A7%C3%A3o+PIX+com+Mercado+Pago;Cria%C3%A7%C3%A3o+e+Valida%C3%A7%C3%A3o+de+Pagamentos;Node.js+Payment+Library" />
-</p><p align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/Mercado_Pago_Logo.svg" width="450">
-</p><p align="center">
+</p><h1 align="center">
+<img src="https://img.shields.io/badge/Mercado%20Pago-009EE3?style=for-the-badge&logo=mercadopago&logoColor=white">
+</h1><p align="center">
 <img src="https://img.shields.io/badge/Node.js-18+-green?style=for-the-badge&logo=node.js">
 <img src="https://img.shields.io/badge/Mercado%20Pago-API-009EE3?style=for-the-badge&logo=mercadopago&logoColor=white">
-<img src="https://img.shields.io/badge/Version-1.0.0-orange?style=for-the-badge">
 <img src="https://img.shields.io/badge/License-MIT-red?style=for-the-badge">
+</p><p align="center">
+<img title="Autor" src="https://img.shields.io/badge/Autor-@DR_.SILVAOFC-orange.svg?style=for-the-badge&logo=github">
+<img title="Versão" src="https://img.shields.io/badge/Versão-1.0.1-orange.svg?style=for-the-badge&logo=github">
 </p><p align="center">
 <img src="https://img.shields.io/badge/Discord-@dr_.silva-5865F2?style=for-the-badge&logo=discord&logoColor=white">
 <img src="https://img.shields.io/badge/Instagram-@silva_.ofczxz-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
@@ -16,7 +18,7 @@
 
 📖 Sobre
 
-O MercadoAPI-JS é uma biblioteca desenvolvida para simplificar integrações com a API do Mercado Pago, oferecendo geração de cobranças PIX, QR Codes e consulta de pagamentos através de uma interface simples para Node.js.
+O MercadoAPI-JS é uma biblioteca desenvolvida para simplificar integrações com a API do Mercado Pago, oferecendo geração de cobranças PIX, QR Codes, PIX Copia e Cola e consulta de pagamentos através de uma interface simples para Node.js.
 
 ✨ Recursos
 
@@ -28,6 +30,7 @@ O MercadoAPI-JS é uma biblioteca desenvolvida para simplificar integrações co
 - ✅ Fácil implementação
 - ✅ Baixo consumo de recursos
 - ✅ Compatível com Node.js
+- ✅ Integração com Mercado Pago
 
 ---
 
@@ -39,15 +42,13 @@ npm install mercadoapi-js
 
 Via GitHub
 
-git clone https://github.com/seuusuario/MercadoAPI-JS
+git clone https://github.com/DRSILVA-OFC7/MercadoAPI-JS
 cd MercadoAPI-JS
 npm install
 
 ---
 
 🔑 Configuração
-
-Obtenha seu Access Token no painel do Mercado Pago.
 
 const { payment } = require("mercadoapi-js")
 
@@ -129,13 +130,9 @@ await mp.create_payment(10, 60)
 
 create_payment(valor, tempo)
 
-Cria uma cobrança PIX.
-
 Parâmetro| Tipo| Descrição
 valor| Number| Valor da cobrança
 tempo| Number| Tempo em minutos
-
----
 
 check_payment()
 
@@ -200,9 +197,11 @@ main()
 
 👨‍💻 Desenvolvedor
 
-<p align="center"><img src="https://img.shields.io/badge/Discord-@dr_.silva-5865F2?style=for-the-badge&logo=discord&logoColor=white"><br><br>
-
-<img src="https://img.shields.io/badge/Instagram-@silva_.ofczxz-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></p>---
+<p align="center">
+<img src="https://img.shields.io/badge/Discord-@dr_.silva-5865F2?style=for-the-badge&logo=discord&logoColor=white">
+<br><br>
+<img src="https://img.shields.io/badge/Instagram-@silva_.ofczxz-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
+</p>---
 
 📜 Licença
 
